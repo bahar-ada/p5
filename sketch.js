@@ -2,11 +2,11 @@ function setup() {
   createCanvas(800, 800);
   background(0);
   //دایره
-  ellipse(300,300,150,150)
-  rect(50,50,200,200)
-  fill(100, 100, 250);
-   stroke(100, 100, 250);
-   //مثلث
+  ellipse(300, 300, 150, 150)
+  rect(50, 50, 200, 200)
+  fill(75, 67, 118);
+  stroke(100, 100, 250);
+  //مثلث
   // triangle(250, 50, 90, 300, 300, 400)
   //خط
   //line(0,0,300,300);
@@ -35,10 +35,11 @@ function draw() {
   //rect(mouseX, mouseY, 50, 50)
 
   //رنگ خط
-  stroke(0,255,0);
+  stroke(174, 68, 90);
+  
 
   //قطر خط و نقطه
-  //strokeWeight(5)
+  strokeWeight(5)
 
   //نقطه چین
   //point(mouseX, mouseY);
@@ -48,6 +49,10 @@ function draw() {
 
   //خط پیوسته
   line(pmouseX, pmouseY, mouseX, mouseY)
-  
+
+  //width عرض کانوس است
+  stroke(75, 67, 118)
+  ellipse(width, height/2, 250, 250)
+
 
 }
